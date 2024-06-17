@@ -229,10 +229,19 @@ public class ArraysClass12 {
 		return arr;
 	}
 	public static void main(String[] args) {
-		int[] arr=takeInput();
-		print(arr);
-		rotateArray(arr,2);
-		print(arr);
+		int[] arr= {1,2,4,1,2,3};
+		int i=0;
+		while(i<arr.length) {
+			int j=i;
+			while(j<arr.length) {
+				i++;
+				j++;
+			}
+		}
+//		int[] arr=takeInput();
+//		print(arr);
+//		rotateArray(arr,2);
+//		print(arr);
 		
 		
 //		reverseArray(arr,0,arr.length);
